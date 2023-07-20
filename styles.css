@@ -1,1 +1,33 @@
-/* Write your CSS here! */
+/* CSS for HTML Me Something, Part 1 */
+
+body {
+    margin: 9px;
+    display: block;
+    font-family: Arial, sans-serif;
+    background-color: bisque;
+}
+
+header {
+    text-align: center;
+}
+
+#mainHeading {
+    color: brown;
+}
+
+main {
+    padding: 10px;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.funParagraph {
+    color: green;
+}
