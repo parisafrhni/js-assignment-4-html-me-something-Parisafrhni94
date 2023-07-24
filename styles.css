@@ -1,33 +1,48 @@
 /* CSS for HTML Me Something, Part 1 */
 
 body {
-    margin: 9px;
+    background-color: blanchedalmond;
+    margin: 7px;
     display: block;
     font-family: Arial, sans-serif;
-    background-color: bisque;
 }
 
+h2 {
+    background-color: blanchedalmond;
+    color: black;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Give a heading on your page the id of mainHeading and use the id selector in styles.css to give it a color value of red. */
+#mainHeading {
+    color: red;
+}
+
+/* Give a paragraph on your page the id of testP and a class name of funParagraph. Use the class selector in styles.css to give it a color value of green. */
+#testP {
+    color: rgb(2, 34, 2);
+}
+
+/* Use at least one class selector to style elements with the class name "funParagraph". */
+.funParagraph {
+    font-size: 19px;
+    font-style: italic;
+}
+
+/* Use at least one element selector to style <img> elements. */
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 800px;
+    max-height: 400px;
+}
+
+/* Use at least one id selector to style the <header> element. */
 header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
     text-align: center;
 }
 
-#mainHeading {
-    color: brown;
-}
-
-main {
-    padding: 10px;
-}
-
-article {
-    margin-bottom: 20px;
-}
-
-img {
-    display: block;
-    margin: 0 auto;
-}
-
-.funParagraph {
-    color: green;
-}
